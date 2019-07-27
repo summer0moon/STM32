@@ -513,6 +513,11 @@
               <FileType>1</FileType>
               <FilePath>..\FWLIB\src\stm32f4xx_syscfg.c</FilePath>
             </File>
+            <File>
+              <FileName>stm32f4xx_dma.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\FWLIB\src\stm32f4xx_dma.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>

@@ -1,5 +1,5 @@
 Dependencies for Project 'ADC', Target 'ADC': (DO NOT MODIFY !)
-F (.\main.c)(0x54463DE3)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I..\CORE -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\HARDWARE\LED -I..\HARDWARE\LCD -I..\HARDWARE\ADC -I..\FWLIB\inc-I F:\电路板\STM32程序\STM32F407ZGT6\20190726DMA_双重ADC同步高速采样\20190726DMA_双重ADC同步高速采样\USER\RTE-I D:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER-o ..\obj\main.o --omf_browse ..\obj\main.crf --depend ..\obj\main.d)
+F (.\main.c)(0x5D3C4D31)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I..\CORE -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\HARDWARE\LED -I..\HARDWARE\LCD -I..\HARDWARE\ADC -I..\FWLIB\inc-I "F:\电路板\STM32程序\STM32F407ZGT6\20190726DMA_双重ADC同步高速采样\实验18 ADC实验\USER\RTE"-I D:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER-o ..\obj\main.o --omf_browse ..\obj\main.crf --depend ..\obj\main.d)
 I (..\SYSTEM\sys\sys.h)(0x55CC1471)
 I (..\USER\stm32f4xx.h)(0x542BA483)
 I (..\CORE\core_cm4.h)(0x53C7D530)
@@ -41,8 +41,8 @@ I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
 I (..\HARDWARE\LED\led.h)(0x53B53723)
 I (..\HARDWARE\LCD\lcd.h)(0x5D37CC0F)
 I (D:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5475F300)
-I (..\HARDWARE\ADC\adc.h)(0x53BCE05A)
-F (.\stm32f4xx_it.c)(0x5426CDF4)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I..\CORE -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\HARDWARE\LED -I..\HARDWARE\LCD -I..\HARDWARE\ADC -I..\FWLIB\inc-I F:\电路板\STM32程序\STM32F407ZGT6\20190726DMA_双重ADC同步高速采样\20190726DMA_双重ADC同步高速采样\USER\RTE-I D:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER-o ..\obj\stm32f4xx_it.o --omf_browse ..\obj\stm32f4xx_it.crf --depend ..\obj\stm32f4xx_it.d)
+I (..\HARDWARE\ADC\adc.h)(0x5D3C13EC)
+F (.\stm32f4xx_it.c)(0x5426CDF4)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I..\CORE -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\HARDWARE\LED -I..\HARDWARE\LCD -I..\HARDWARE\ADC -I..\FWLIB\inc-I "F:\电路板\STM32程序\STM32F407ZGT6\20190726DMA_双重ADC同步高速采样\实验18 ADC实验\USER\RTE"-I D:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER-o ..\obj\stm32f4xx_it.o --omf_browse ..\obj\stm32f4xx_it.crf --depend ..\obj\stm32f4xx_it.d)
 I (stm32f4xx_it.h)(0x5426CDC1)
 I (stm32f4xx.h)(0x542BA483)
 I (..\CORE\core_cm4.h)(0x53C7D530)
@@ -79,7 +79,7 @@ I (..\FWLIB\inc\stm32f4xx_can.h)(0x53DBAFAD)
 I (..\FWLIB\inc\stm32f4xx_dac.h)(0x53DBAFAD)
 I (..\FWLIB\inc\stm32f4xx_dcmi.h)(0x53DBAFAD)
 I (..\FWLIB\inc\stm32f4xx_fsmc.h)(0x53DBAFAD)
-F (.\system_stm32f4xx.c)(0x542B7880)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I..\CORE -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\HARDWARE\LED -I..\HARDWARE\LCD -I..\HARDWARE\ADC -I..\FWLIB\inc-I F:\电路板\STM32程序\STM32F407ZGT6\20190726DMA_双重ADC同步高速采样\20190726DMA_双重ADC同步高速采样\USER\RTE-I D:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER-o ..\obj\system_stm32f4xx.o --omf_browse ..\obj\system_stm32f4xx.crf --depend ..\obj\system_stm32f4xx.d)
+F (.\system_stm32f4xx.c)(0x542B7880)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I..\CORE -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\HARDWARE\LED -I..\HARDWARE\LCD -I..\HARDWARE\ADC -I..\FWLIB\inc-I "F:\电路板\STM32程序\STM32F407ZGT6\20190726DMA_双重ADC同步高速采样\实验18 ADC实验\USER\RTE"-I D:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER-o ..\obj\system_stm32f4xx.o --omf_browse ..\obj\system_stm32f4xx.crf --depend ..\obj\system_stm32f4xx.d)
 I (stm32f4xx.h)(0x542BA483)
 I (..\CORE\core_cm4.h)(0x53C7D530)
 I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
@@ -115,7 +115,7 @@ I (..\FWLIB\inc\stm32f4xx_can.h)(0x53DBAFAD)
 I (..\FWLIB\inc\stm32f4xx_dac.h)(0x53DBAFAD)
 I (..\FWLIB\inc\stm32f4xx_dcmi.h)(0x53DBAFAD)
 I (..\FWLIB\inc\stm32f4xx_fsmc.h)(0x53DBAFAD)
-F (..\HARDWARE\LED\led.c)(0x53B78948)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I..\CORE -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\HARDWARE\LED -I..\HARDWARE\LCD -I..\HARDWARE\ADC -I..\FWLIB\inc-I F:\电路板\STM32程序\STM32F407ZGT6\20190726DMA_双重ADC同步高速采样\20190726DMA_双重ADC同步高速采样\USER\RTE-I D:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER-o ..\obj\led.o --omf_browse ..\obj\led.crf --depend ..\obj\led.d)
+F (..\HARDWARE\LED\led.c)(0x53B78948)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I..\CORE -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\HARDWARE\LED -I..\HARDWARE\LCD -I..\HARDWARE\ADC -I..\FWLIB\inc-I "F:\电路板\STM32程序\STM32F407ZGT6\20190726DMA_双重ADC同步高速采样\实验18 ADC实验\USER\RTE"-I D:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER-o ..\obj\led.o --omf_browse ..\obj\led.crf --depend ..\obj\led.d)
 I (..\HARDWARE\LED\led.h)(0x53B53723)
 I (..\SYSTEM\sys\sys.h)(0x55CC1471)
 I (..\USER\stm32f4xx.h)(0x542BA483)
@@ -152,7 +152,7 @@ I (..\FWLIB\inc\stm32f4xx_can.h)(0x53DBAFAD)
 I (..\FWLIB\inc\stm32f4xx_dac.h)(0x53DBAFAD)
 I (..\FWLIB\inc\stm32f4xx_dcmi.h)(0x53DBAFAD)
 I (..\FWLIB\inc\stm32f4xx_fsmc.h)(0x53DBAFAD)
-F (..\HARDWARE\LCD\lcd.c)(0x5D37CC2C)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I..\CORE -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\HARDWARE\LED -I..\HARDWARE\LCD -I..\HARDWARE\ADC -I..\FWLIB\inc-I F:\电路板\STM32程序\STM32F407ZGT6\20190726DMA_双重ADC同步高速采样\20190726DMA_双重ADC同步高速采样\USER\RTE-I D:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER-o ..\obj\lcd.o --omf_browse ..\obj\lcd.crf --depend ..\obj\lcd.d)
+F (..\HARDWARE\LCD\lcd.c)(0x5D37CC2C)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I..\CORE -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\HARDWARE\LED -I..\HARDWARE\LCD -I..\HARDWARE\ADC -I..\FWLIB\inc-I "F:\电路板\STM32程序\STM32F407ZGT6\20190726DMA_双重ADC同步高速采样\实验18 ADC实验\USER\RTE"-I D:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER-o ..\obj\lcd.o --omf_browse ..\obj\lcd.crf --depend ..\obj\lcd.d)
 I (..\HARDWARE\LCD\lcd.h)(0x5D37CC0F)
 I (..\SYSTEM\sys\sys.h)(0x55CC1471)
 I (..\USER\stm32f4xx.h)(0x542BA483)
@@ -194,8 +194,8 @@ I (..\HARDWARE\LCD\font.h)(0x52C52FE7)
 I (..\SYSTEM\usart\usart.h)(0x5397010C)
 I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
 I (..\SYSTEM\delay\delay.h)(0x53B7797C)
-F (..\HARDWARE\ADC\adc.c)(0x54463DE3)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I..\CORE -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\HARDWARE\LED -I..\HARDWARE\LCD -I..\HARDWARE\ADC -I..\FWLIB\inc-I F:\电路板\STM32程序\STM32F407ZGT6\20190726DMA_双重ADC同步高速采样\20190726DMA_双重ADC同步高速采样\USER\RTE-I D:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER-o ..\obj\adc.o --omf_browse ..\obj\adc.crf --depend ..\obj\adc.d)
-I (..\HARDWARE\ADC\adc.h)(0x53BCE05A)
+F (..\HARDWARE\ADC\adc.c)(0x5D3C4CE4)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I..\CORE -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\HARDWARE\LED -I..\HARDWARE\LCD -I..\HARDWARE\ADC -I..\FWLIB\inc-I "F:\电路板\STM32程序\STM32F407ZGT6\20190726DMA_双重ADC同步高速采样\实验18 ADC实验\USER\RTE"-I D:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER-o ..\obj\adc.o --omf_browse ..\obj\adc.crf --depend ..\obj\adc.d)
+I (..\HARDWARE\ADC\adc.h)(0x5D3C13EC)
 I (..\SYSTEM\sys\sys.h)(0x55CC1471)
 I (..\USER\stm32f4xx.h)(0x542BA483)
 I (..\CORE\core_cm4.h)(0x53C7D530)
@@ -232,7 +232,7 @@ I (..\FWLIB\inc\stm32f4xx_dac.h)(0x53DBAFAD)
 I (..\FWLIB\inc\stm32f4xx_dcmi.h)(0x53DBAFAD)
 I (..\FWLIB\inc\stm32f4xx_fsmc.h)(0x53DBAFAD)
 I (..\SYSTEM\delay\delay.h)(0x53B7797C)
-F (..\SYSTEM\delay\delay.c)(0x55CC1354)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I..\CORE -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\HARDWARE\LED -I..\HARDWARE\LCD -I..\HARDWARE\ADC -I..\FWLIB\inc-I F:\电路板\STM32程序\STM32F407ZGT6\20190726DMA_双重ADC同步高速采样\20190726DMA_双重ADC同步高速采样\USER\RTE-I D:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER-o ..\obj\delay.o --omf_browse ..\obj\delay.crf --depend ..\obj\delay.d)
+F (..\SYSTEM\delay\delay.c)(0x55CC1354)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I..\CORE -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\HARDWARE\LED -I..\HARDWARE\LCD -I..\HARDWARE\ADC -I..\FWLIB\inc-I "F:\电路板\STM32程序\STM32F407ZGT6\20190726DMA_双重ADC同步高速采样\实验18 ADC实验\USER\RTE"-I D:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER-o ..\obj\delay.o --omf_browse ..\obj\delay.crf --depend ..\obj\delay.d)
 I (..\SYSTEM\delay\delay.h)(0x53B7797C)
 I (..\SYSTEM\sys\sys.h)(0x55CC1471)
 I (..\USER\stm32f4xx.h)(0x542BA483)
@@ -269,7 +269,7 @@ I (..\FWLIB\inc\stm32f4xx_can.h)(0x53DBAFAD)
 I (..\FWLIB\inc\stm32f4xx_dac.h)(0x53DBAFAD)
 I (..\FWLIB\inc\stm32f4xx_dcmi.h)(0x53DBAFAD)
 I (..\FWLIB\inc\stm32f4xx_fsmc.h)(0x53DBAFAD)
-F (..\SYSTEM\sys\sys.c)(0x53B52F52)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I..\CORE -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\HARDWARE\LED -I..\HARDWARE\LCD -I..\HARDWARE\ADC -I..\FWLIB\inc-I F:\电路板\STM32程序\STM32F407ZGT6\20190726DMA_双重ADC同步高速采样\20190726DMA_双重ADC同步高速采样\USER\RTE-I D:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER-o ..\obj\sys.o --omf_browse ..\obj\sys.crf --depend ..\obj\sys.d)
+F (..\SYSTEM\sys\sys.c)(0x53B52F52)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I..\CORE -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\HARDWARE\LED -I..\HARDWARE\LCD -I..\HARDWARE\ADC -I..\FWLIB\inc-I "F:\电路板\STM32程序\STM32F407ZGT6\20190726DMA_双重ADC同步高速采样\实验18 ADC实验\USER\RTE"-I D:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER-o ..\obj\sys.o --omf_browse ..\obj\sys.crf --depend ..\obj\sys.d)
 I (..\SYSTEM\sys\sys.h)(0x55CC1471)
 I (..\USER\stm32f4xx.h)(0x542BA483)
 I (..\CORE\core_cm4.h)(0x53C7D530)
@@ -305,7 +305,7 @@ I (..\FWLIB\inc\stm32f4xx_can.h)(0x53DBAFAD)
 I (..\FWLIB\inc\stm32f4xx_dac.h)(0x53DBAFAD)
 I (..\FWLIB\inc\stm32f4xx_dcmi.h)(0x53DBAFAD)
 I (..\FWLIB\inc\stm32f4xx_fsmc.h)(0x53DBAFAD)
-F (..\SYSTEM\usart\usart.c)(0x55CC14BB)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I..\CORE -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\HARDWARE\LED -I..\HARDWARE\LCD -I..\HARDWARE\ADC -I..\FWLIB\inc-I F:\电路板\STM32程序\STM32F407ZGT6\20190726DMA_双重ADC同步高速采样\20190726DMA_双重ADC同步高速采样\USER\RTE-I D:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER-o ..\obj\usart.o --omf_browse ..\obj\usart.crf --depend ..\obj\usart.d)
+F (..\SYSTEM\usart\usart.c)(0x55CC14BB)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I..\CORE -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\HARDWARE\LED -I..\HARDWARE\LCD -I..\HARDWARE\ADC -I..\FWLIB\inc-I "F:\电路板\STM32程序\STM32F407ZGT6\20190726DMA_双重ADC同步高速采样\实验18 ADC实验\USER\RTE"-I D:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER-o ..\obj\usart.o --omf_browse ..\obj\usart.crf --depend ..\obj\usart.d)
 I (..\SYSTEM\sys\sys.h)(0x55CC1471)
 I (..\USER\stm32f4xx.h)(0x542BA483)
 I (..\CORE\core_cm4.h)(0x53C7D530)
@@ -343,8 +343,8 @@ I (..\FWLIB\inc\stm32f4xx_dcmi.h)(0x53DBAFAD)
 I (..\FWLIB\inc\stm32f4xx_fsmc.h)(0x53DBAFAD)
 I (..\SYSTEM\usart\usart.h)(0x5397010C)
 I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
-F (..\CORE\startup_stm32f40_41xxx.s)(0x53DBBC53)(--cpu Cortex-M4.fp -g --apcs=interwork -I F:\电路板\STM32程序\STM32F407ZGT6\20190726DMA_双重ADC同步高速采样\20190726DMA_双重ADC同步高速采样\USER\RTE-I D:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-I D:\Keil_v5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 514" --pd "STM32F40_41xxx SETA 1"--list ..\obj\startup_stm32f40_41xxx.lst --xref -o ..\obj\startup_stm32f40_41xxx.o --depend ..\obj\startup_stm32f40_41xxx.d)
-F (..\FWLIB\src\misc.c)(0x53DBB014)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I..\CORE -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\HARDWARE\LED -I..\HARDWARE\LCD -I..\HARDWARE\ADC -I..\FWLIB\inc-I F:\电路板\STM32程序\STM32F407ZGT6\20190726DMA_双重ADC同步高速采样\20190726DMA_双重ADC同步高速采样\USER\RTE-I D:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER-o ..\obj\misc.o --omf_browse ..\obj\misc.crf --depend ..\obj\misc.d)
+F (..\CORE\startup_stm32f40_41xxx.s)(0x53DBBC53)(--cpu Cortex-M4.fp -g --apcs=interwork -I "F:\电路板\STM32程序\STM32F407ZGT6\20190726DMA_双重ADC同步高速采样\实验18 ADC实验\USER\RTE"-I D:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-I D:\Keil_v5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 514" --pd "STM32F40_41xxx SETA 1"--list ..\obj\startup_stm32f40_41xxx.lst --xref -o ..\obj\startup_stm32f40_41xxx.o --depend ..\obj\startup_stm32f40_41xxx.d)
+F (..\FWLIB\src\misc.c)(0x53DBB014)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I..\CORE -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\HARDWARE\LED -I..\HARDWARE\LCD -I..\HARDWARE\ADC -I..\FWLIB\inc-I "F:\电路板\STM32程序\STM32F407ZGT6\20190726DMA_双重ADC同步高速采样\实验18 ADC实验\USER\RTE"-I D:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER-o ..\obj\misc.o --omf_browse ..\obj\misc.crf --depend ..\obj\misc.d)
 I (..\FWLIB\inc\misc.h)(0x53DBAFAD)
 I (..\USER\stm32f4xx.h)(0x542BA483)
 I (..\CORE\core_cm4.h)(0x53C7D530)
@@ -379,7 +379,7 @@ I (..\FWLIB\inc\stm32f4xx_can.h)(0x53DBAFAD)
 I (..\FWLIB\inc\stm32f4xx_dac.h)(0x53DBAFAD)
 I (..\FWLIB\inc\stm32f4xx_dcmi.h)(0x53DBAFAD)
 I (..\FWLIB\inc\stm32f4xx_fsmc.h)(0x53DBAFAD)
-F (..\FWLIB\src\stm32f4xx_adc.c)(0x53DBB014)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I..\CORE -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\HARDWARE\LED -I..\HARDWARE\LCD -I..\HARDWARE\ADC -I..\FWLIB\inc-I F:\电路板\STM32程序\STM32F407ZGT6\20190726DMA_双重ADC同步高速采样\20190726DMA_双重ADC同步高速采样\USER\RTE-I D:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER-o ..\obj\stm32f4xx_adc.o --omf_browse ..\obj\stm32f4xx_adc.crf --depend ..\obj\stm32f4xx_adc.d)
+F (..\FWLIB\src\stm32f4xx_adc.c)(0x53DBB014)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I..\CORE -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\HARDWARE\LED -I..\HARDWARE\LCD -I..\HARDWARE\ADC -I..\FWLIB\inc-I "F:\电路板\STM32程序\STM32F407ZGT6\20190726DMA_双重ADC同步高速采样\实验18 ADC实验\USER\RTE"-I D:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER-o ..\obj\stm32f4xx_adc.o --omf_browse ..\obj\stm32f4xx_adc.crf --depend ..\obj\stm32f4xx_adc.d)
 I (..\FWLIB\inc\stm32f4xx_adc.h)(0x53DBAFAD)
 I (..\USER\stm32f4xx.h)(0x542BA483)
 I (..\CORE\core_cm4.h)(0x53C7D530)
@@ -414,7 +414,7 @@ I (..\FWLIB\inc\stm32f4xx_can.h)(0x53DBAFAD)
 I (..\FWLIB\inc\stm32f4xx_dac.h)(0x53DBAFAD)
 I (..\FWLIB\inc\stm32f4xx_dcmi.h)(0x53DBAFAD)
 I (..\FWLIB\inc\stm32f4xx_fsmc.h)(0x53DBAFAD)
-F (..\FWLIB\src\stm32f4xx_gpio.c)(0x53DBB014)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I..\CORE -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\HARDWARE\LED -I..\HARDWARE\LCD -I..\HARDWARE\ADC -I..\FWLIB\inc-I F:\电路板\STM32程序\STM32F407ZGT6\20190726DMA_双重ADC同步高速采样\20190726DMA_双重ADC同步高速采样\USER\RTE-I D:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER-o ..\obj\stm32f4xx_gpio.o --omf_browse ..\obj\stm32f4xx_gpio.crf --depend ..\obj\stm32f4xx_gpio.d)
+F (..\FWLIB\src\stm32f4xx_gpio.c)(0x53DBB014)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I..\CORE -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\HARDWARE\LED -I..\HARDWARE\LCD -I..\HARDWARE\ADC -I..\FWLIB\inc-I "F:\电路板\STM32程序\STM32F407ZGT6\20190726DMA_双重ADC同步高速采样\实验18 ADC实验\USER\RTE"-I D:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER-o ..\obj\stm32f4xx_gpio.o --omf_browse ..\obj\stm32f4xx_gpio.crf --depend ..\obj\stm32f4xx_gpio.d)
 I (..\FWLIB\inc\stm32f4xx_gpio.h)(0x53DBAFAD)
 I (..\USER\stm32f4xx.h)(0x542BA483)
 I (..\CORE\core_cm4.h)(0x53C7D530)
@@ -449,7 +449,7 @@ I (..\FWLIB\inc\stm32f4xx_can.h)(0x53DBAFAD)
 I (..\FWLIB\inc\stm32f4xx_dac.h)(0x53DBAFAD)
 I (..\FWLIB\inc\stm32f4xx_dcmi.h)(0x53DBAFAD)
 I (..\FWLIB\inc\stm32f4xx_fsmc.h)(0x53DBAFAD)
-F (..\FWLIB\src\stm32f4xx_fsmc.c)(0x53DBB014)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I..\CORE -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\HARDWARE\LED -I..\HARDWARE\LCD -I..\HARDWARE\ADC -I..\FWLIB\inc-I F:\电路板\STM32程序\STM32F407ZGT6\20190726DMA_双重ADC同步高速采样\20190726DMA_双重ADC同步高速采样\USER\RTE-I D:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER-o ..\obj\stm32f4xx_fsmc.o --omf_browse ..\obj\stm32f4xx_fsmc.crf --depend ..\obj\stm32f4xx_fsmc.d)
+F (..\FWLIB\src\stm32f4xx_fsmc.c)(0x53DBB014)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I..\CORE -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\HARDWARE\LED -I..\HARDWARE\LCD -I..\HARDWARE\ADC -I..\FWLIB\inc-I "F:\电路板\STM32程序\STM32F407ZGT6\20190726DMA_双重ADC同步高速采样\实验18 ADC实验\USER\RTE"-I D:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER-o ..\obj\stm32f4xx_fsmc.o --omf_browse ..\obj\stm32f4xx_fsmc.crf --depend ..\obj\stm32f4xx_fsmc.d)
 I (..\FWLIB\inc\stm32f4xx_fsmc.h)(0x53DBAFAD)
 I (..\USER\stm32f4xx.h)(0x542BA483)
 I (..\CORE\core_cm4.h)(0x53C7D530)
@@ -484,7 +484,7 @@ I (..\FWLIB\inc\stm32f4xx_rng.h)(0x53DBAFAD)
 I (..\FWLIB\inc\stm32f4xx_can.h)(0x53DBAFAD)
 I (..\FWLIB\inc\stm32f4xx_dac.h)(0x53DBAFAD)
 I (..\FWLIB\inc\stm32f4xx_dcmi.h)(0x53DBAFAD)
-F (..\FWLIB\src\stm32f4xx_rcc.c)(0x53DBB014)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I..\CORE -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\HARDWARE\LED -I..\HARDWARE\LCD -I..\HARDWARE\ADC -I..\FWLIB\inc-I F:\电路板\STM32程序\STM32F407ZGT6\20190726DMA_双重ADC同步高速采样\20190726DMA_双重ADC同步高速采样\USER\RTE-I D:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER-o ..\obj\stm32f4xx_rcc.o --omf_browse ..\obj\stm32f4xx_rcc.crf --depend ..\obj\stm32f4xx_rcc.d)
+F (..\FWLIB\src\stm32f4xx_rcc.c)(0x53DBB014)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I..\CORE -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\HARDWARE\LED -I..\HARDWARE\LCD -I..\HARDWARE\ADC -I..\FWLIB\inc-I "F:\电路板\STM32程序\STM32F407ZGT6\20190726DMA_双重ADC同步高速采样\实验18 ADC实验\USER\RTE"-I D:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER-o ..\obj\stm32f4xx_rcc.o --omf_browse ..\obj\stm32f4xx_rcc.crf --depend ..\obj\stm32f4xx_rcc.d)
 I (..\FWLIB\inc\stm32f4xx_rcc.h)(0x53DBAFAD)
 I (..\USER\stm32f4xx.h)(0x542BA483)
 I (..\CORE\core_cm4.h)(0x53C7D530)
@@ -519,7 +519,7 @@ I (..\FWLIB\inc\stm32f4xx_can.h)(0x53DBAFAD)
 I (..\FWLIB\inc\stm32f4xx_dac.h)(0x53DBAFAD)
 I (..\FWLIB\inc\stm32f4xx_dcmi.h)(0x53DBAFAD)
 I (..\FWLIB\inc\stm32f4xx_fsmc.h)(0x53DBAFAD)
-F (..\FWLIB\src\stm32f4xx_usart.c)(0x53DBB014)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I..\CORE -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\HARDWARE\LED -I..\HARDWARE\LCD -I..\HARDWARE\ADC -I..\FWLIB\inc-I F:\电路板\STM32程序\STM32F407ZGT6\20190726DMA_双重ADC同步高速采样\20190726DMA_双重ADC同步高速采样\USER\RTE-I D:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER-o ..\obj\stm32f4xx_usart.o --omf_browse ..\obj\stm32f4xx_usart.crf --depend ..\obj\stm32f4xx_usart.d)
+F (..\FWLIB\src\stm32f4xx_usart.c)(0x53DBB014)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I..\CORE -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\HARDWARE\LED -I..\HARDWARE\LCD -I..\HARDWARE\ADC -I..\FWLIB\inc-I "F:\电路板\STM32程序\STM32F407ZGT6\20190726DMA_双重ADC同步高速采样\实验18 ADC实验\USER\RTE"-I D:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER-o ..\obj\stm32f4xx_usart.o --omf_browse ..\obj\stm32f4xx_usart.crf --depend ..\obj\stm32f4xx_usart.d)
 I (..\FWLIB\inc\stm32f4xx_usart.h)(0x53DBAFAD)
 I (..\USER\stm32f4xx.h)(0x542BA483)
 I (..\CORE\core_cm4.h)(0x53C7D530)
@@ -554,7 +554,7 @@ I (..\FWLIB\inc\stm32f4xx_can.h)(0x53DBAFAD)
 I (..\FWLIB\inc\stm32f4xx_dac.h)(0x53DBAFAD)
 I (..\FWLIB\inc\stm32f4xx_dcmi.h)(0x53DBAFAD)
 I (..\FWLIB\inc\stm32f4xx_fsmc.h)(0x53DBAFAD)
-F (..\FWLIB\src\stm32f4xx_syscfg.c)(0x53DBB014)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I..\CORE -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\HARDWARE\LED -I..\HARDWARE\LCD -I..\HARDWARE\ADC -I..\FWLIB\inc-I F:\电路板\STM32程序\STM32F407ZGT6\20190726DMA_双重ADC同步高速采样\20190726DMA_双重ADC同步高速采样\USER\RTE-I D:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER-o ..\obj\stm32f4xx_syscfg.o --omf_browse ..\obj\stm32f4xx_syscfg.crf --depend ..\obj\stm32f4xx_syscfg.d)
+F (..\FWLIB\src\stm32f4xx_syscfg.c)(0x53DBB014)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I..\CORE -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\HARDWARE\LED -I..\HARDWARE\LCD -I..\HARDWARE\ADC -I..\FWLIB\inc-I "F:\电路板\STM32程序\STM32F407ZGT6\20190726DMA_双重ADC同步高速采样\实验18 ADC实验\USER\RTE"-I D:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER-o ..\obj\stm32f4xx_syscfg.o --omf_browse ..\obj\stm32f4xx_syscfg.crf --depend ..\obj\stm32f4xx_syscfg.d)
 I (..\FWLIB\inc\stm32f4xx_syscfg.h)(0x53DBAFAD)
 I (..\USER\stm32f4xx.h)(0x542BA483)
 I (..\CORE\core_cm4.h)(0x53C7D530)
@@ -578,6 +578,41 @@ I (..\FWLIB\inc\stm32f4xx_rcc.h)(0x53DBAFAD)
 I (..\FWLIB\inc\stm32f4xx_rtc.h)(0x53DBAFAD)
 I (..\FWLIB\inc\stm32f4xx_sdio.h)(0x53DBAFAD)
 I (..\FWLIB\inc\stm32f4xx_spi.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_tim.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_usart.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_wwdg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\misc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_cryp.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_hash.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_rng.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_can.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dac.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dcmi.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_fsmc.h)(0x53DBAFAD)
+F (..\FWLIB\src\stm32f4xx_dma.c)(0x53DBB014)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I..\CORE -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\HARDWARE\LED -I..\HARDWARE\LCD -I..\HARDWARE\ADC -I..\FWLIB\inc-I "F:\电路板\STM32程序\STM32F407ZGT6\20190726DMA_双重ADC同步高速采样\实验18 ADC实验\USER\RTE"-I D:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER-o ..\obj\stm32f4xx_dma.o --omf_browse ..\obj\stm32f4xx_dma.crf --depend ..\obj\stm32f4xx_dma.d)
+I (..\FWLIB\inc\stm32f4xx_dma.h)(0x53DBAFAD)
+I (..\USER\stm32f4xx.h)(0x542BA483)
+I (..\CORE\core_cm4.h)(0x53C7D530)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\CORE\core_cmInstr.h)(0x53C7D530)
+I (..\CORE\core_cmFunc.h)(0x53C7D530)
+I (..\CORE\core_cm4_simd.h)(0x53C7D530)
+I (..\USER\system_stm32f4xx.h)(0x53DBA499)
+I (..\USER\stm32f4xx_conf.h)(0x53DBB3CB)
+I (..\FWLIB\inc\stm32f4xx_adc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_crc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_dbgmcu.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_exti.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_flash.h)(0x53DF9330)
+I (..\FWLIB\inc\stm32f4xx_gpio.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_i2c.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_iwdg.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_pwr.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_rcc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_rtc.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_sdio.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_spi.h)(0x53DBAFAD)
+I (..\FWLIB\inc\stm32f4xx_syscfg.h)(0x53DBAFAD)
 I (..\FWLIB\inc\stm32f4xx_tim.h)(0x53DBAFAD)
 I (..\FWLIB\inc\stm32f4xx_usart.h)(0x53DBAFAD)
 I (..\FWLIB\inc\stm32f4xx_wwdg.h)(0x53DBAFAD)
