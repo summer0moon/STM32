@@ -1,0 +1,65 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: μVision V5.14.0.0
+Copyright (C) 2015 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: 123 123, 123, LIC=R4HY8-33ILV-UMJ9A-1XQA3-MC3L0-9ZJNL
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Professional  Version: 5.14.0.0
+Toolchain Path:  D:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.05 update 1 (build 106)
+Assembler:       Armasm.exe V5.05 update 1 (build 106)
+Linker/Locator:  ArmLink.exe V5.05 update 1 (build 106)
+Library Manager: ArmAr.exe V5.05 update 1 (build 106)
+Hex Converter:   FromElf.exe V5.05 update 1 (build 106)
+CPU DLL:         SARMCM3.DLL V5.14.0.0
+Dialog DLL:      DCM.DLL V1.13.1.0
+Target DLL:      Segger\JL2CM3.dll V2.99.13.0
+Dialog DLL:      TCM.DLL V1.14.4.0
+ 
+<h2>Project:</h2>
+F:\电路板\STM32程序\STM32F407ZGT6\PID算法new\USER\PWM.uvprojx
+Project File Date:  08/05/2015
+
+<h2>Output:</h2>
+Build target 'PWM'
+compiling main.c...
+main.c(23): warning:  #223-D: function "TIM2_Int_Init" declared implicitly
+        TIM2_Int_Init(10000-1,72-1);                            //使用定时器2的中断72分频
+main.c(27): warning:  #223-D: function "TIM3_PWM_Init" declared implicitly
+        TIM3_PWM_Init(2000,720-1);       //不分频。PWM频率=72000000/900=80Khz
+main.c(31): warning:  #223-D: function "Get_Angle_Average" declared implicitly
+        Angle=Get_Angle_Average();//获取角度的值
+main.c(40): warning:  #223-D: function "DisPlay" declared implicitly
+                DisPlay();
+main.c: 4 warnings, 0 errors
+compiling control.c...
+..\HARDWARE\CONTROL\control.c(33): warning:  #223-D: function "Get_Angle_Average" declared implicitly
+        Angle=Get_Angle_Average();//获取角度的值
+..\HARDWARE\CONTROL\control.c(83): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+                math = (int)(16.031*OUT - 116.08);//控制函数输出
+..\HARDWARE\CONTROL\control.c(117): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+                math =(int)(15.31*OUT - 67.55);//控制函数输出
+..\HARDWARE\CONTROL\control.c(167): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+                         if(Angle_0-Angle<0.01 && Angle_0-Angle>=-0.01)//误差在+-0.01
+..\HARDWARE\CONTROL\control.c(172): error:  #20: identifier "BEEP" is undefined
+                 BEEP=1;
+..\HARDWARE\CONTROL\control.c(223): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+                         if(Angle_0-Angle<0.01 && Angle_0-Angle>=-0.01)//误差在+-0.01
+..\HARDWARE\CONTROL\control.c(228): error:  #20: identifier "BEEP" is undefined
+                 BEEP=1;
+..\HARDWARE\CONTROL\control.c: 5 warnings, 2 errors
+"..\OBJ\PWM.axf" - 2 Error(s), 9 Warning(s).
+
+<h2>Collection of Component include folders:</h2>
+  F:\电路板\STM32程序\STM32F407ZGT6\PID算法new\USER\RTE
+  D:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+Target not created.
+</pre>
+</body>
+</html>
