@@ -76,7 +76,7 @@ void  Adc_Init(void)
   ADC_CommonInitStructure.ADC_Mode = ADC_DualMode_RegSimult;//ADC双重模式
   ADC_CommonInitStructure.ADC_TwoSamplingDelay = ADC_TwoSamplingDelay_5Cycles;//两个采样阶段之间的延迟5个时钟
   ADC_CommonInitStructure.ADC_DMAAccessMode = ADC_DMAAccessMode_2;//* 	//DMA模式1
-  ADC_CommonInitStructure.ADC_Prescaler = ADC_Prescaler_Div4;//预分频4分频。ADCCLK=PCLK2/2=84/4=21Mhz,ADC时钟最好不要超过36Mhz 
+  ADC_CommonInitStructure.ADC_Prescaler = ADC_Prescaler_Div2;//预分频4分频。ADCCLK=PCLK2/2=84/4=21Mhz,ADC时钟最好不要超过36Mhz 
   ADC_CommonInit(&ADC_CommonInitStructure);//初始化
 	
   ADC_InitStructure.ADC_Resolution = ADC_Resolution_12b;//12位模式
